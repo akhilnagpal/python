@@ -1,4 +1,4 @@
-import enums.enum_example_pb2 as enum_example_pb2
+from protocolbuffers import enums as enum_example_pb2
 
 enum_message = enum_example_pb2.EnumMessage()
 
