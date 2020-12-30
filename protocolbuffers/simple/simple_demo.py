@@ -1,4 +1,4 @@
-import simple.simple_pb2 as simple_pb2
+import protocolbuffers.simple.simple_pb2 as simple_pb2
 
 simple_message = simple_pb2.SimpleMessage()
 simple_message.id = 123
