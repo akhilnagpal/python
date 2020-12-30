@@ -11,5 +11,10 @@ first_multiple_dummy.name = "Aryan"
 
 complex_message.multiple_dummy.add(id=789, name="Nagpal")
 
+third_multiple_dummy = complex_pb2.DummyMessage()
+third_multiple_dummy.id = 111
+third_multiple_dummy.name = "Deeya"
+
+complex_message.multiple_dummy.extend([third_multiple_dummy])
 
 print(complex_message)
