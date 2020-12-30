@@ -1,4 +1,4 @@
-import addressbook.addressbook_pb2 as addressbook_pb2
+import protocolbuffers.addressbook.addressbook_pb2 as addressbook_pb2
 
 addressBook = addressbook_pb2.AddressBook()
 
