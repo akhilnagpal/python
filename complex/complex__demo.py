@@ -9,8 +9,7 @@ first_multiple_dummy = complex_message.multiple_dummy.add()
 first_multiple_dummy.id = 456
 first_multiple_dummy.name = "Aryan"
 
-second_multiple_dummy = complex_message.multiple_dummy.add()
-second_multiple_dummy.id = 789
-second_multiple_dummy.name = "Nagpal"
+complex_message.multiple_dummy.add(id=789, name="Nagpal")
+
 
 print(complex_message)
